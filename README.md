@@ -169,6 +169,7 @@ This provider exposes quite a few provider-specific configuration options:
 * `terminate_on_shutdown` - Indicates whether an instance stops or terminates
   when you initiate shutdown from the instance.
 * `endpoint` - The endpoint URL for connecting to AWS (or an AWS-like service). Only required for non AWS clouds, such as [eucalyptus](https://github.com/eucalyptus/eucalyptus/wiki).
+* `source_dest_check` - Whether to enable source destination checking for the instance. Default true.
 
 These can be set like typical provider-specific configuration:
 
